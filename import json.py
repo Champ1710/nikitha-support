@@ -1,13 +1,13 @@
 import json
 import csv
-from datetime import datetime
+from datetime import datetime, timedelta
 from collections import defaultdict
+from email.mime.text import MIMEText
 
 # ==== Constants ====
 INPUT_JSON = "ldd_vdi_data.json"
 INPUT_CSV = "1000158532.jpg.csv"
 OUTPUT_EMAIL_FILE = "ldd_cleanup_emails.txt"
-LOG_FILE = "ldd_email_log.txt"
 DAYS_LIMIT = 14  # Ignore new LDDs created within the past 14 days
 
 # ==== MOCK Email Sender ====
@@ -37,7 +37,6 @@ CDE Ops Team
     print(f"Subject: {subject}")
     print(f"Body:\n{body}")
     print(f"[✅] Simulated sending email to {user_email} for host {hostname}\n")
-    return f"[SENT] Email to {user_email} for host {hostname} (last login: {last_login_date})"
 
 # ==== Check whether to notify based on last login ====
 def should_notify(ldd):
@@ -56,8 +55,8 @@ def load_json(json_file):
         return json.load(f)
 
 # ==== Notify Users from JSON (mock emails) ====
-def notify_users_from_json(data, log):
-    log.write("\n==== Processing JSON Data ====\n")
+def notify_users_from_json(data):
+    print("[INFO] Processing JSON-based LDD data...")
     user_map = defaultdict(list)
     for hostname, info in data.items():
         email = info.get("vdi_owner_email")
@@ -67,24 +66,17 @@ def notify_users_from_json(data, log):
 
     for email, ldds in user_map.items():
         if len(ldds) <= 1:
-            log.write(f"[SKIPPED] {email} - only 1 LDD\n")
-            continue
+            continue  # Only notify if user has more than 1 LDD
 
         for ldd in ldds:
             if should_notify(ldd):
-                try:
-                    result = send_email(
-                        user_email=ldd.get("vdi_owner_email"),
-                        user_name=ldd.get("vdi_owner_name", "User"),
-                        hostname=ldd.get("hostname", "Unknown"),
-                        last_login_date=ldd.get("citrix_last_connection_date", "Unknown"),
-                        home_dir=ldd.get("home_directory", "Unknown")
-                    )
-                    log.write(result + "\n")
-                except Exception as e:
-                    log.write(f"[ERROR] Failed to send email to {email} for host {ldd.get('hostname')}: {e}\n")
-            else:
-                log.write(f"[SKIPPED] {email} - Host {ldd.get('hostname')} accessed recently\n")
+                send_email(
+                    user_email=ldd.get("vdi_owner_email"),
+                    user_name=ldd.get("vdi_owner_name", "User"),
+                    hostname=ldd.get("hostname", "Unknown"),
+                    last_login_date=ldd.get("citrix_last_connection_date", "Unknown"),
+                    home_dir=ldd.get("home_directory", "Unknown")
+                )
 
 # ==== Load CSV Data ====
 def load_ldd_users_from_csv(csv_file):
@@ -128,33 +120,30 @@ InfraOps Team
 """
 
 # ==== Save All CSV Emails to File ====
-def evaluate_and_email_csv(users_dict, output_file, log):
+def evaluate_and_email_csv(users_dict, output_file):
     with open(output_file, "w") as f:
-        log.write("\n==== Processing CSV Data ====\n")
         for user, hostnames in users_dict.items():
-            log.write(f"[INFO] Email generated for CSV user: {user}\n")
+            print(f"[INFO] Generating email for user: {user}")
             email_text = generate_email(user, hostnames)
+            print(email_text)
             f.write(email_text + "\n\n")
+    print(f"\n✅ Email messages saved to: {output_file}")
 
 # ==== MAIN ====
 if __name__ == "__main__":
     print("[INFO] Starting LDD Cleanup Notifier...")
-    with open(LOG_FILE, "w") as log:
-        log.write(f"=== LDD Cleanup Log started @ {datetime.now()} ===\n")
 
-        # 1. Process JSON-based LDDs
-        try:
-            data = load_json(INPUT_JSON)
-            print(f"[INFO] Loaded {len(data)} LDD entries from JSON.")
-            notify_users_from_json(data, log)
-        except Exception as e:
-            log.write(f"[ERROR] Failed to process JSON: {e}\n")
+    # 1. Process JSON-based LDDs
+    try:
+        data = load_json(INPUT_JSON)
+        print(f"[INFO] Loaded {len(data)} LDD entries from JSON.")
+        notify_users_from_json(data)
+    except Exception as e:
+        print(f"[ERROR] Failed to process JSON: {e}")
 
-        # 2. Process CSV-based LDDs
-        try:
-            ldd_users = load_ldd_users_from_csv(INPUT_CSV)
-            evaluate_and_email_csv(ldd_users, OUTPUT_EMAIL_FILE, log)
-        except Exception as e:
-            log.write(f"[ERROR] Failed to process CSV: {e}\n")
-
-    print(f"[INFO] Logs written to {LOG_FILE}")
+    # 2. Process CSV-based LDDs
+    try:
+        ldd_users = load_ldd_users_from_csv(INPUT_CSV)
+        evaluate_and_email_csv(ldd_users, OUTPUT_EMAIL_FILE)
+    except Exception as e:
+        print(f"[ERROR] Failed to process CSV: {e}")

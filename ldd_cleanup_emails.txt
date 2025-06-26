@@ -1,0 +1,399 @@
+--- EMAIL TO: trpfd04 ---
+Subject: LDD Cleanup Action Required
+
+Dear trpfd04,
+
+Our monthly audit shows you currently have multiple Linux Developer Desktops (LDDs) assigned:
+→ Hostnames: vdiopctc02860, vdiopctc05271
+
+As part of general housekeeping, users are allowed only one LDD by default. 
+Please review your LDD usage and remove any that are not required.
+
+If there is a justified requirement, please inform the support team.
+
+Otherwise, kindly raise a request to delete the extra LDDs and clean up any unnecessary files from your NFS home directory.
+
+Thank you for your cooperation.
+
+Regards,  
+InfraOps Team
+
+
+--- EMAIL TO: trpks85 ---
+Subject: LDD Cleanup Action Required
+
+Dear trpks85,
+
+Our monthly audit shows you currently have multiple Linux Developer Desktops (LDDs) assigned:
+→ Hostnames: vdiopctc02862, vdiopctc04652
+
+As part of general housekeeping, users are allowed only one LDD by default. 
+Please review your LDD usage and remove any that are not required.
+
+If there is a justified requirement, please inform the support team.
+
+Otherwise, kindly raise a request to delete the extra LDDs and clean up any unnecessary files from your NFS home directory.
+
+Thank you for your cooperation.
+
+Regards,  
+InfraOps Team
+
+
+--- EMAIL TO: trpeb20 ---
+Subject: LDD Cleanup Action Required
+
+Dear trpeb20,
+
+Our monthly audit shows you currently have multiple Linux Developer Desktops (LDDs) assigned:
+→ Hostnames: vdiopctc02868, vdiopctc03753
+
+As part of general housekeeping, users are allowed only one LDD by default. 
+Please review your LDD usage and remove any that are not required.
+
+If there is a justified requirement, please inform the support team.
+
+Otherwise, kindly raise a request to delete the extra LDDs and clean up any unnecessary files from your NFS home directory.
+
+Thank you for your cooperation.
+
+Regards,  
+InfraOps Team
+
+
+--- EMAIL TO: trpl004 ---
+Subject: LDD Cleanup Action Required
+
+Dear trpl004,
+
+Our monthly audit shows you currently have multiple Linux Developer Desktops (LDDs) assigned:
+→ Hostnames: vdiopctc02871, vdiopctc02905
+
+As part of general housekeeping, users are allowed only one LDD by default. 
+Please review your LDD usage and remove any that are not required.
+
+If there is a justified requirement, please inform the support team.
+
+Otherwise, kindly raise a request to delete the extra LDDs and clean up any unnecessary files from your NFS home directory.
+
+Thank you for your cooperation.
+
+Regards,  
+InfraOps Team
+
+
+--- EMAIL TO: trpig18 ---
+Subject: LDD Cleanup Action Required
+
+Dear trpig18,
+
+Our monthly audit shows you currently have multiple Linux Developer Desktops (LDDs) assigned:
+→ Hostnames: vdiopctc02872, vdiopctc02882
+
+As part of general housekeeping, users are allowed only one LDD by default. 
+Please review your LDD usage and remove any that are not required.
+
+If there is a justified requirement, please inform the support team.
+
+Otherwise, kindly raise a request to delete the extra LDDs and clean up any unnecessary files from your NFS home directory.
+
+Thank you for your cooperation.
+
+Regards,  
+InfraOps Team
+
+
+--- EMAIL TO: trphr33 ---
+Subject: LDD Cleanup Action Required
+
+Dear trphr33,
+
+Our monthly audit shows you currently have multiple Linux Developer Desktops (LDDs) assigned:
+→ Hostnames: vdiopctc02903, vdiopctc05372
+
+As part of general housekeeping, users are allowed only one LDD by default. 
+Please review your LDD usage and remove any that are not required.
+
+If there is a justified requirement, please inform the support team.
+
+Otherwise, kindly raise a request to delete the extra LDDs and clean up any unnecessary files from your NFS home directory.
+
+Thank you for your cooperation.
+
+Regards,  
+InfraOps Team
+
+
+--- EMAIL TO: trpl193 ---
+Subject: LDD Cleanup Action Required
+
+Dear trpl193,
+
+Our monthly audit shows you currently have multiple Linux Developer Desktops (LDDs) assigned:
+→ Hostnames: vdiopctc02916, vdiopctc04580
+
+As part of general housekeeping, users are allowed only one LDD by default. 
+Please review your LDD usage and remove any that are not required.
+
+If there is a justified requirement, please inform the support team.
+
+Otherwise, kindly raise a request to delete the extra LDDs and clean up any unnecessary files from your NFS home directory.
+
+Thank you for your cooperation.
+
+Regards,  
+InfraOps Team
+
+
+--- EMAIL TO: appa836 ---
+Subject: LDD Cleanup Action Required
+
+Dear appa836,
+
+Our monthly audit shows you currently have multiple Linux Developer Desktops (LDDs) assigned:
+→ Hostnames: vdiopctc02956, vdiopctc04719
+
+As part of general housekeeping, users are allowed only one LDD by default. 
+Please review your LDD usage and remove any that are not required.
+
+If there is a justified requirement, please inform the support team.
+
+Otherwise, kindly raise a request to delete the extra LDDs and clean up any unnecessary files from your NFS home directory.
+
+Thank you for your cooperation.
+
+Regards,  
+InfraOps Team
+
+
+--- EMAIL TO: appd553 ---
+Subject: LDD Cleanup Action Required
+
+Dear appd553,
+
+Our monthly audit shows you currently have multiple Linux Developer Desktops (LDDs) assigned:
+→ Hostnames: vdiopctc02963, vdiopctc05341
+
+As part of general housekeeping, users are allowed only one LDD by default. 
+Please review your LDD usage and remove any that are not required.
+
+If there is a justified requirement, please inform the support team.
+
+Otherwise, kindly raise a request to delete the extra LDDs and clean up any unnecessary files from your NFS home directory.
+
+Thank you for your cooperation.
+
+Regards,  
+InfraOps Team
+
+
+--- EMAIL TO: trpek56 ---
+Subject: LDD Cleanup Action Required
+
+Dear trpek56,
+
+Our monthly audit shows you currently have multiple Linux Developer Desktops (LDDs) assigned:
+→ Hostnames: vdiopctc03003, vdiopctc04125
+
+As part of general housekeeping, users are allowed only one LDD by default. 
+Please review your LDD usage and remove any that are not required.
+
+If there is a justified requirement, please inform the support team.
+
+Otherwise, kindly raise a request to delete the extra LDDs and clean up any unnecessary files from your NFS home directory.
+
+Thank you for your cooperation.
+
+Regards,  
+InfraOps Team
+
+
+--- EMAIL TO: trpi136 ---
+Subject: LDD Cleanup Action Required
+
+Dear trpi136,
+
+Our monthly audit shows you currently have multiple Linux Developer Desktops (LDDs) assigned:
+→ Hostnames: vdiopctc03007, vdiopctc04669
+
+As part of general housekeeping, users are allowed only one LDD by default. 
+Please review your LDD usage and remove any that are not required.
+
+If there is a justified requirement, please inform the support team.
+
+Otherwise, kindly raise a request to delete the extra LDDs and clean up any unnecessary files from your NFS home directory.
+
+Thank you for your cooperation.
+
+Regards,  
+InfraOps Team
+
+
+--- EMAIL TO: trpik91 ---
+Subject: LDD Cleanup Action Required
+
+Dear trpik91,
+
+Our monthly audit shows you currently have multiple Linux Developer Desktops (LDDs) assigned:
+→ Hostnames: vdiopctc03012, vdiopctc03522
+
+As part of general housekeeping, users are allowed only one LDD by default. 
+Please review your LDD usage and remove any that are not required.
+
+If there is a justified requirement, please inform the support team.
+
+Otherwise, kindly raise a request to delete the extra LDDs and clean up any unnecessary files from your NFS home directory.
+
+Thank you for your cooperation.
+
+Regards,  
+InfraOps Team
+
+
+--- EMAIL TO: trpgh23 ---
+Subject: LDD Cleanup Action Required
+
+Dear trpgh23,
+
+Our monthly audit shows you currently have multiple Linux Developer Desktops (LDDs) assigned:
+→ Hostnames: vdiopctc03022, vdiopctc04040
+
+As part of general housekeeping, users are allowed only one LDD by default. 
+Please review your LDD usage and remove any that are not required.
+
+If there is a justified requirement, please inform the support team.
+
+Otherwise, kindly raise a request to delete the extra LDDs and clean up any unnecessary files from your NFS home directory.
+
+Thank you for your cooperation.
+
+Regards,  
+InfraOps Team
+
+
+--- EMAIL TO: trpeo67 ---
+Subject: LDD Cleanup Action Required
+
+Dear trpeo67,
+
+Our monthly audit shows you currently have multiple Linux Developer Desktops (LDDs) assigned:
+→ Hostnames: vdiopctc03027, vdiopctc03631
+
+As part of general housekeeping, users are allowed only one LDD by default. 
+Please review your LDD usage and remove any that are not required.
+
+If there is a justified requirement, please inform the support team.
+
+Otherwise, kindly raise a request to delete the extra LDDs and clean up any unnecessary files from your NFS home directory.
+
+Thank you for your cooperation.
+
+Regards,  
+InfraOps Team
+
+
+--- EMAIL TO: trpeg09 ---
+Subject: LDD Cleanup Action Required
+
+Dear trpeg09,
+
+Our monthly audit shows you currently have multiple Linux Developer Desktops (LDDs) assigned:
+→ Hostnames: vdiopctc03037, vdiopctc03863
+
+As part of general housekeeping, users are allowed only one LDD by default. 
+Please review your LDD usage and remove any that are not required.
+
+If there is a justified requirement, please inform the support team.
+
+Otherwise, kindly raise a request to delete the extra LDDs and clean up any unnecessary files from your NFS home directory.
+
+Thank you for your cooperation.
+
+Regards,  
+InfraOps Team
+
+
+--- EMAIL TO: trpkg06 ---
+Subject: LDD Cleanup Action Required
+
+Dear trpkg06,
+
+Our monthly audit shows you currently have multiple Linux Developer Desktops (LDDs) assigned:
+→ Hostnames: vdiopctc03038, vdiopctc03806
+
+As part of general housekeeping, users are allowed only one LDD by default. 
+Please review your LDD usage and remove any that are not required.
+
+If there is a justified requirement, please inform the support team.
+
+Otherwise, kindly raise a request to delete the extra LDDs and clean up any unnecessary files from your NFS home directory.
+
+Thank you for your cooperation.
+
+Regards,  
+InfraOps Team
+
+
+--- EMAIL TO: app8231 ---
+Subject: LDD Cleanup Action Required
+
+Dear app8231,
+
+Our monthly audit shows you currently have multiple Linux Developer Desktops (LDDs) assigned:
+→ Hostnames: vdiopctc03060, vdiopctc04044
+
+As part of general housekeeping, users are allowed only one LDD by default. 
+Please review your LDD usage and remove any that are not required.
+
+If there is a justified requirement, please inform the support team.
+
+Otherwise, kindly raise a request to delete the extra LDDs and clean up any unnecessary files from your NFS home directory.
+
+Thank you for your cooperation.
+
+Regards,  
+InfraOps Team
+
+
+--- EMAIL TO: trpjk66 ---
+Subject: LDD Cleanup Action Required
+
+Dear trpjk66,
+
+Our monthly audit shows you currently have multiple Linux Developer Desktops (LDDs) assigned:
+→ Hostnames: vdiopctc03075, vdiopctc04052
+
+As part of general housekeeping, users are allowed only one LDD by default. 
+Please review your LDD usage and remove any that are not required.
+
+If there is a justified requirement, please inform the support team.
+
+Otherwise, kindly raise a request to delete the extra LDDs and clean up any unnecessary files from your NFS home directory.
+
+Thank you for your cooperation.
+
+Regards,  
+InfraOps Team
+
+
+--- EMAIL TO: trpho97 ---
+Subject: LDD Cleanup Action Required
+
+Dear trpho97,
+
+Our monthly audit shows you currently have multiple Linux Developer Desktops (LDDs) assigned:
+→ Hostnames: vdiopctc03080, vdiopctc04238
+
+As part of general housekeeping, users are allowed only one LDD by default. 
+Please review your LDD usage and remove any that are not required.
+
+If there is a justified requirement, please inform the support team.
+
+Otherwise, kindly raise a request to delete the extra LDDs and clean up any unnecessary files from your NFS home directory.
+
+Thank you for your cooperation.
+
+Regards,  
+InfraOps Team
+
+
